@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Christopher's Portfolio
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center;">Christopher Richardson's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                    </li>
+    
+                    <li>
+                    <a href="projects.html">
+                        Projects
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        
+
+        <main>
+
+           <div class="development">
+
+           <div class="kbsubdiv">
+            <h1>Operating System Vulnerabilities</h1>
+            <img src="operatingsystemupdate.png" alt="A photo of a laptop OS being updated" class="kbimg">
+            <p>
+                Your data is extremely important & exposure of this data could be catastraophic to your business. One of the most overlooked Cybersecurity defenses are Operating System updates. 
+                I have seen it myself, a successful business I visited while on vacation had windows 7 on the business computer where they processed payments. This is a massive risk as 
+                outdated Operating Systems are vulnerable to CVE's (Common Vulnerabilities and Exposures). The perfect example would be for the Windows 7 computer discussed at the beginning of 
+                this blog, If this computer had port 445 open, used for the SMB protocol, this machine could be exploited through the use of a payload called Eternal Blue. Even computers on 
+                windows 10 and windows 11 can be exploited if you do not maintain Operating System security updates! Update that PC to close one possible port of entry and protect that data!
+            </p>
+           </div>
+
+           <div class="kbsubdiv">
+            <h1>The Risks of Opened Ports</h1>
+            <img src="portrisk.png" alt="A photo of a port scan" class="kbimg">
+            <p>
+                Leaving unused ports opened on your network is a critical mistake that many people make ranging from large businesses to private personal networks. If an attacker successfully 
+                gains access to your network the attacker could then run a scan to find devices connected to the network, from there they could scan the IP addresses of these devices & discover 
+                opened ports, the services running on these ports & if there are any vulnerabilities within these ports. If you have port 22 left open, which is your SSH port, and the attacker 
+                discovers your username on your device, this attacker can then brute force an SSH connection and if you have an easy to guess password the attacker will gain 
+                unauthorized access to your device in no time, all without your knowledge! Patch those ports!
+            </p>
+           </div>
+
+           <div class="kbsubdiv">
+            <h1>OhSINT!</h1>
+            <img src="OSINT.png" alt="A photo of a man standing in front of a screen" class="kbimg">
+            <p>
+                OSINT, Open Source Intelligence, Is a tool hackers most commonly utilize to gain access to your accounts. To combat OSINT its crucial that you enable MFA on all of your accounts. 
+                The use of OSINT to gain access to a users account is fairly easy, its common for individuals to choose easy security questions when creating an accouting, or even using a password 
+                that contains personal information thats typically not so personal. For an example, we will create a character named Sally, Sally went to Helen High School and graduated in 2014,
+                 We know this because she has this listed in her Facebook about section. We also know that Sallys bestfriend is her dog, which she posts photos of frequently. In one photo of her 
+                 dog she posted in the caption: "Luna is so cute! Happy Birthday Luna!". Sally also has her email set to public in her about section, using this information we can attempt to gain access. 
+                 As we sign in, we enter her email & select "forgot password". From this point we are prompted with security questions that Sally set up in the event that she forgot her password, 
+                 one of the options is titled "What is my dogs name?". With only access to one website and its information regarding Sally, we have gained complete access to her account. 
+                 This is why OSINT is so powerful, this is exactly why it is important to never post personal information online especially if this information is the same information you use for passwords or security questions.
+            </p>
+           </div>
+
+           </div>
+        </main>
+
+        <footer>
+            <p id="footerstatus">I Am Currently Employed & I Am Not Seeking Job Offers At This Time</p>
+            Copyright &copy; Christopher Richardson - 2024 - <a href="mailto:chrisar2000@outlook.com" aria-label="Send an email to Chrisar2000@outlook.com">Chrisar2000@outlook.com</a>
+            <br>
+            <p id="footersubtext">Please note: My email address is provided strictly for job offers or professional inquiries. Unsolicited messages, advertisements, or spam are not permitted.</p>
+        </footer>
+    </body>
+</html>
