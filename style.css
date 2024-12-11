@@ -12,15 +12,18 @@ main { display: flex; flex-direction: column; gap: 1em;  }
 .section { display: flex; flex-direction: row; justify-content:space-between; border: 3px solid #013A63; border-radius: 3px; text-align: center; margin: 1em; padding: 2em; width: 90%; align-self: center; }
 .gallery { display: flex; flex-direction: row; justify-content: space-around; margin: 1em; background-image: url(mehero.jpg); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; padding: 1em; border-radius: 5px; border: 3px solid #013A63; }
 .gallery img { transition: transform 0.3s ease; }
+.projectimg { width: 21em; height: 21em; border: 0.2em solid #01497C; margin: 0.7em;}
+.projectimg:hover { transform: scale(1.05); transition: transform 0.3s ease;}
 #meimg:hover { transform: scale(1.05); }
-.development { display:flex; flex-direction: column; flex-wrap: nowrap; text-align: center;  }
+.development { display:flex; flex-direction: column; flex-wrap: nowrap; text-align: center; padding-left: 5em; padding-right: 5em; }
+.developmentstyle2 { display:flex; flex-direction: column; flex-wrap: nowrap; text-align: center; padding-left: 27em; padding-right: 27em; }
 ul { text-align: center; list-style-type:circle; }
 footer { text-align: center; margin-bottom: 1em; margin-top: 1em; }
 footer a:link { color:#A9D6E5; }
 footer a:visited { color:#A9D6E5; }
 footer a:hover { color: #61A5C2; }
 #footersubtext { font-size: x-small; }
-#footerstatus { color: 	#66FF33; }
+#footerstatus { color: 	#CC3333; }
 table { margin:auto; border: 0.2em solid #01497C; width: auto; border-spacing: 3; font-size: 1.3em;}
 td, th { border-style: none; padding: 0.2em; }
 tr:nth-of-type(even) { background-color: #013A63 ; }
