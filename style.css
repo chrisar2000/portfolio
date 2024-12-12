@@ -16,7 +16,7 @@ main { display: flex; flex-direction: column; gap: 1em;  }
 .projectimg:hover { transform: scale(1.05); transition: transform 0.3s ease;}
 #meimg:hover { transform: scale(1.05); }
 .development { display:flex; flex-direction: column; flex-wrap: nowrap; text-align: center; padding-left: 5em; padding-right: 5em; }
-.developmentstyle2 { display:flex; flex-direction: column; flex-wrap: nowrap; text-align: center; padding-left: 27em; padding-right: 27em; padding-top: 2em; padding-bottom: 2em; }
+.developmentstyle2 { display:flex; flex-direction: column; flex-wrap: nowrap; text-align: center; align-items: center; padding-left: 10em; padding-right: 10em; padding-top: 2em; padding-bottom: 2em; }
 .kbsubdiv { border: 0.2em solid #01497C; margin-left: 3em; margin-right:3em; padding: 5em; margin-top: 5em;}
 .kbimg { width: 38em; height: 22em; border: 0.3em solid #01497C; margin: 1em; border-radius: 20px 3px;}
 .kbimg:hover { transform: scale(1.05); transition: transform 0.3s ease; }
