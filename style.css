@@ -8,8 +8,9 @@ nav a:visited { color: #A9D6E5; }
 nav a:hover { color: #61A5C2; }
 nav ul { flex-direction: row; display: flex; list-style-type: none; justify-content: space-around; margin: auto; }
 nav ul li {  }
-main { display: flex; flex-direction: column; gap: 1em;  }
-.section { display: flex; flex-direction: row; justify-content:space-between; border: 3px solid #013A63; border-radius: 3px; text-align: center; margin: 1em; padding: 2em; width: 90%; align-self: center; }
+main { display: flex; flex-direction: column; gap: 1em; text-shadow: #012A4A 3px 1px; }
+.section { display: flex; flex-direction: row; justify-content:space-around; border: 3px solid #013A63; border-radius: 3px; text-align: center; margin: 1em; padding: 2em; width: 90%; align-self: center; }
+.employment { display: flex; flex-direction: row; justify-content:space-around; border: 3px solid #013A63; border-radius: 3px; text-align: center; margin: 1em; padding: 2em; width: auto; align-self: center; }
 .gallery { display: flex; flex-direction: row; justify-content: space-around; margin: 1em; background-image: url(mehero.jpg); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; padding: 1em; border-radius: 5px; border: 3px solid #013A63; }
 .gallery img { transition: transform 0.3s ease; }
 .projectimg { width: 21em; height: 21em; border: 0.2em solid #01497C; margin: 0.7em;}
