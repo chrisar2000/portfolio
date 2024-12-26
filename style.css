@@ -32,6 +32,7 @@ table { margin:auto; border: 0.2em solid #01497C; width: auto; border-spacing: 3
 td, th { border-style: none; padding: 0.2em; }
 tr:nth-of-type(even) { background-color: #013A63 ; }
 tr:first-of-type{ background-color: #014F86; }
+.download { border-radius: 5px; border: 5px dotted #013A63; margin: auto; padding: 10px;}
 
 #unobtained { opacity: 0.5; }
 
